@@ -1,50 +1,66 @@
-// @font-face {
-//   font-family: 'Calibri';
-//   src: local('Calibri Light Italic'), local('Calibri-LightItalic'),
-//     url('../fonts/Calibri-LightItalic.woff2') format('woff2');
-//   font-weight: 300;
-//   font-style: italic;
-// }
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter Regular'), local('Inter-Regular'),
+      url('../fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
-// @font-face {
-//   font-family: 'Calibri';
-//   src: local('Calibri Bold'), local('Calibri-Bold'),
-//     url('../fonts/Calibri-Bold.woff2') format('woff2');
-//   font-weight: bold;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter Semi Bold'), local('Inter-SemiBold'),
+      url('../fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
 
-// @font-face {
-//   font-family: 'Calibri';
-//   src: local('Calibri'),
-//     url('../fonts/Calibri.woff2') format('woff2');
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter Bold'), local('Inter-Bold'),
+      url('../fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
 
-// @font-face {
-//   font-family: 'Montserrat';
-//   src: local('Montserrat Regular'), local('Montserrat-Regular'),
-//     url('../fonts/Montserrat-Regular.woff2') format('woff2');
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter Medium'), local('Inter-Medium'),
+      url('../fonts/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
 
-// @font-face {
-//   font-family: 'Montserrat';
-//   src: local('Montserrat Bold'), local('Montserrat-Bold'),
-//     url('../fonts/Montserrat-Bold.woff2') format('woff2');
-//   font-weight: bold;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Medium'), local('Poppins-Medium'),
+      url('../fonts/Poppins-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
 
-// @font-face {
-//   font-family: 'Inter';
-//   src: local('Inter Regular'), local('Inter-Regular'),
-//     url('../fonts/Inter-Regular.woff2') format('woff2');
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+      url('../fonts/Poppins-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
+      url('../fonts/Poppins-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: local('Space Grotesk Medium'), local('SpaceGrotesk-Medium'),
+      url('../fonts/SpaceGrotesk-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
 
 * {
   box-sizing: border-box;
