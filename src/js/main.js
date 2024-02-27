@@ -11,22 +11,13 @@
 //     })
 // }
 
+// закрытие секции tagline
+const closeTaglineBtn = document.querySelector('.tagline__close');
+const tagline = document.querySelector('.tagline');
+closeTaglineBtn.onclick = function() {
+  tagline.remove();
+}
 
 
-const swiper = new Swiper('#products-slider', {
-
-  slidesPerView: 3,
-  spaceBetween: 32,
-  loop: true,
-
-  pagination: {
-    el: '#products-slider-pagination',
-  },
-
-  navigation: {
-    nextEl: '#btn-next',
-    prevEl: '#btn-prev',
-  },
-});
 
 
