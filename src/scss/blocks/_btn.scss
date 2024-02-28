@@ -1,0 +1,14 @@
+.btn {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: var(--black);
+    color: #fff;
+
+    &--medium {
+        padding: 12px 56px;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: -0.4px;
+        line-height: 1.777;
+    }
+}

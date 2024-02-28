@@ -23,7 +23,7 @@
     font-family: var(--font-nav);
     font-size: 14px;
     line-height: 1.7;
-    color: #141718;
+    color: var(--black);
 }
 
 .nav__btns {
@@ -45,7 +45,7 @@
 
     border-radius: 50%;
 
-    background-color: #141718;
+    background-color: var(--black);
 
     font-size: 12px;
     line-height: 20px;
