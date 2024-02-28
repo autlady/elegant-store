@@ -8,3 +8,48 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav__link {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+    font-family: var(--font-nav);
+    font-size: 14px;
+    line-height: 1.7;
+    color: #141718;
+}
+
+.nav__btns {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.nav__btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav__btn-count {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+
+    background-color: #141718;
+
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--tagline-link);
+}

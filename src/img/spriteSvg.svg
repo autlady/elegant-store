@@ -23,4 +23,34 @@
 		</g>
 	</symbol>
 
+	<!-- down -->
+	<symbol id="svg-down" viewBox="0 0 11 6">
+		<g>
+           <path d="M1.20435 0.75L5.70435 5.25L10.2043 0.75" stroke="currentColor" fill="transparent" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+		</g>
+	</symbol>
+
+	<!-- search -->
+	<symbol id="svg-search" viewBox="0 0 24 24">
+		<g>
+            <path d="M18.5 18.5L22 22M21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21C16.7467 21 21 16.7467 21 11.5Z" fill="transparent" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+		</g>
+	</symbol>
+
+	<!-- user -->
+	<symbol id="svg-user" viewBox="0 0 22 22">
+		<g>
+           <path d="M17.5588 18.5488C16.5654 15.8918 14.0036 14 11 14C7.99638 14 5.4346 15.8918 4.44117 18.5488M17.5588 18.5488C19.6672 16.7154 21 14.0134 21 11C21 5.47715 16.5228 1 11 1C5.47715 1 1 5.47715 1 11C1 14.0134 2.33285 16.7154 4.44117 18.5488M17.5588 18.5488C15.8031 20.0756 13.5095 21 11 21C8.49052 21 6.19694 20.0756 4.44117 18.5488M14 8C14 9.65685 12.6569 11 11 11C9.34315 11 8 9.65685 8 8C8 6.34315 9.34315 5 11 5C12.6569 5 14 6.34315 14 8Z" fill="transparent" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+		</g>
+	</symbol>
+
+	<!-- cart -->
+	<symbol id="svg-cart" viewBox="0 0 48 48">
+		<g>
+            <path d="M28 38V14M28 38H32M28 38H18M28 14C28 9.58172 24.4183 6 20 6H12C7.58172 6 4 9.58172 4 14V30C4 33.7304 6.55333 36.8645 10.0077 37.7499M28 14H34.4182C35.4344 14 36.4126 14.3868 37.154 15.0819L42.7358 20.3148C43.5424 21.071 44 22.1273 44 23.2329V34C44 36.2091 42.2091 38 40 38M40 38C40 40.2091 38.2091 42 36 42C33.7909 42 32 40.2091 32 38M40 38C40 35.7909 38.2091 34 36 34C33.7909 34 32 35.7909 32 38M18 38C18 40.2091 16.2091 42 14 42C11.7909 42 10 40.2091 10 38C10 37.916 10.0026 37.8326 10.0077 37.7499M18 38C18 35.7909 16.2091 34 14 34C11.8748 34 10.1368 35.6573 10.0077 37.7499" fill="transparent" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M20 16H16" fill="transparent" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M20 24H12" fill="transparent" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+		</g>
+	</symbol>
+
 </svg>

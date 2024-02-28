@@ -1,7 +1,30 @@
 nav.nav 
     .container
         .nav__row
-            a.nav__logo(href="#!") 3legant
-            ul.nav__list 
+            a.nav__logo.logo(href="#!") 3legant.
+            ul.nav__list
+                li.nav__item 
+                    a(href="#!").nav__link Home
+                li.nav__item 
+                    button.nav__link Shop
+                        svg.svg-down
+                            use(href="./img/spriteSvg.svg#svg-down")
+                li.nav__item 
+                    button.nav__link Product
+                        svg.svg-down
+                            use(href="./img/spriteSvg.svg#svg-down")
+                li.nav__item 
+                    a(href="#!").nav__link Contact Us
+
             .nav__btns
+                button.nav__btn
+                    svg.svg-search
+                        use(href="./img/spriteSvg.svg#svg-search")
+                button.nav__btn
+                    svg.svg-user
+                        use(href="./img/spriteSvg.svg#svg-user")
+                button.nav__btn
+                    svg.svg-cart
+                        use(href="./img/spriteSvg.svg#svg-cart")
+                    span.nav__btn-count 2
             
