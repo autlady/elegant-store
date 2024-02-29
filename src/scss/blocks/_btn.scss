@@ -16,4 +16,16 @@
     &:hover {
         opacity: 0.9;
     }
+
+    &--small {
+        padding: 9px 40px;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: -0.4px;
+        line-height: 1.75;
+    }
+
+    &--wide {
+        width: 100%;
+    }
 }

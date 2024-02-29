@@ -1,6 +1,16 @@
 .card {
     display: grid;
     gap: 12px;
+    width: 262px;
+
+    &:hover {
+        .card__btn {
+            display: block;
+            transform: translateY(0);
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
 }
 
 .card__picture {
@@ -12,7 +22,7 @@
     top: 16px;
     left: 16px;
     padding: 4px 14px;
-    
+
     background-color: #fff;
     border-radius: 4px;
 
@@ -23,7 +33,41 @@
     font-weight: 700;
 }
 
+.card__btn {
+
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    transform: translateY(50%);
+    pointer-events: none;
+}
+
 .card__desc {
-display: grid;
-gap: 4px;
+    display: grid;
+    gap: 4px;
+}
+
+.card__rating {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.card__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--black);
+}
+
+.card__price {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.57;
+    color: #121212;
+    
 }
