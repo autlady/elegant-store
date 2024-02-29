@@ -1,0 +1,24 @@
+.collection__title {
+    padding-block: 48px;
+}
+
+.collection__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.collection-item {
+    position: relative;
+    background-color: #f3f5f7;
+}
+
+.collection-item__content {
+    position: absolute;
+    left: 32px;
+    right: 32px;
+    bottom: 40px;
+}
+
+.collection-item--xl {
+
+}
