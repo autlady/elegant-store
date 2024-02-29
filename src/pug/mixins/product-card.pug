@@ -1,0 +1,27 @@
+mixin product-card(imgName, title, price)
+    // ==== card ====
+    .card 
+        .card__picture
+            img(src="./img/arrivals/" + imgName + ".webp" alt="headphones")
+            .card__label New
+            .card__fav
+                button.btn-fav
+                    svg.svg-heart
+                        use(href="./img/spriteSvg.svg#svg-heart") 
+            .card__btn
+                button.btn.btn--small.btn--wide Add to cart
+        .card__desc
+            .card__rating
+                svg.svg-star
+                    use(href="./img/spriteSvg.svg#svg-star") 
+                svg.svg-star
+                    use(href="./img/spriteSvg.svg#svg-star") 
+                svg.svg-star
+                    use(href="./img/spriteSvg.svg#svg-star") 
+                svg.svg-star
+                    use(href="./img/spriteSvg.svg#svg-star") 
+                svg.svg-star
+                    use(href="./img/spriteSvg.svg#svg-star") 
+            .card__title #{title}
+            .card__price #{price}
+        a(href="#!").card__link
