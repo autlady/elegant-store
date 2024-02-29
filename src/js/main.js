@@ -18,6 +18,19 @@ closeTaglineBtn.onclick = function() {
   tagline.remove();
 }
 
+  /* arrivals slider */
+
+const arrivalsSwiper = new Swiper('.arrivals-swiper', {
+    // Optional parameters
+    slidesPerView: 4.5,
+    spaceBetwen: 24,
+  
+      pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+
 
 
 
