@@ -1,11 +1,14 @@
 section.promotion 
-    .container 
+    .promotion__container 
         .promotion__content
-            p.promotion__tagline Promotion
-            h2.promotion__title Hurry up! 40% OFF
             .promotion__desc
-                p Thousands of high tech are waiting for you
-            p.promotion__expires Offer expires in:
-            .promotion__timer TIMER
+                p.promotion__tagline Promotion
+                h2.promotion__title Hurry up! 40% OFF
+                .promotion__text
+                    p Thousands of high tech are waiting for you
+            .promotion__timer 
+                p.promotion__expires Offer expires in:
+                include ../blocks/timer.pug
+          
             .promotion__btn
-                a(href="#!").btn Shop now
+                a(href="#!").btn.btn--small Shop now
