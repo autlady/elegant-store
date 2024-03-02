@@ -1,0 +1,9 @@
+section.newsletter 
+    .newsletter__content 
+        h2.newsletter__title.section-title Join Our Newsletter
+        p.newsletter__desc Sign up for deals, new products and promotions
+        form(action="").form-newsletter
+            svg.svg-mail
+                use(href="./img/spriteSvg.svg#svg-mail")
+            input(type="text" class="form-newsletter__input" placeholder="Email address")
+            button(type="submit" class="form-newsletter__submit") Signup
