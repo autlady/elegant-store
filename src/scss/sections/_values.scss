@@ -3,9 +3,14 @@
 }
 
 .values__row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+
+	& > * {
+		flex: 1;
+        min-width: 262px;
+	}
 }
 
 // #141718
