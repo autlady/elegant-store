@@ -1,7 +1,8 @@
-mixin value-item 
+mixin value-item(title, desc, svgClassName)
+    // ==== value-item ====
     .value 
-        .values__img
-            svg.svg-shipping
-                use(href="./img/spriteSvg.svg#svg-shipping")  
-        .values__title #{title}
-        .values__desc #{desc}
+        .value__img
+            svg(class="svg-" + svgClassName)
+                use(href="./img/spriteSvg.svg#svg-" + svgClassName)  
+        .value__title #{title}
+        .value__desc #{desc}

@@ -1,27 +1,7 @@
 section.values 
     .container 
         .values__row
-            .value 
-                .value__img
-                    svg.svg-shipping
-                        use(href="./img/spriteSvg.svg#svg-shipping")  
-                .value__title Free Shipping
-                .value__desc Order above $200
-            .value 
-                .value__img
-                    svg.svg-finance
-                        use(href="./img/spriteSvg.svg#svg-finance")  
-                .value__title Free Shipping
-                .value__desc Order above $200
-            .value 
-                .value__img
-                    svg.svg-lock
-                        use(href="./img/spriteSvg.svg#svg-lock")  
-                .value__title Free Shipping
-                .value__desc Order above $200
-            .value 
-                .value__img
-                    svg.svg-phone
-                        use(href="./img/spriteSvg.svg#svg-phone")  
-                .value__title Free Shipping
-                .value__desc Order above $200
+            +value-item("Free Shipping", "Order above $200", "shipping")
+            +value-item("Money-back", "30 days guarantee", "finance")
+            +value-item("Secure Payments", "Secured by Stripe", "lock")
+            +value-item("24/7 Support", "Phone and Email support", "phone")
