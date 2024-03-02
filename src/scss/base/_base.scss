@@ -137,9 +137,15 @@ input:focus {
   outline: none;
 }
 
+input, textarea, button, select {
+	font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
 button {
   padding: 0;
-  background-color: transparent;
   border: none;
   box-shadow: none;
   cursor: pointer;

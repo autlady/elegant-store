@@ -30,6 +30,7 @@
 .form-newsletter {
 	padding-bottom: 12px;
 	display: flex;
+    align-items: center;
 	gap: 8px;
 	border-bottom: 1px solid rgba(108, 114, 117, 0.5);
 }
@@ -37,6 +38,7 @@
 .form-newsletter__input {
 	color: #000;
 	flex-grow: 1;
+    border: none;
 
 	&::placeholder {
 		color: #6c7275;
