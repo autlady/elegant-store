@@ -1,9 +1,10 @@
-mixin product-card(imgName, title, price)
+mixin product-card(imgName, title, price, label)
     // ==== card ====
     .card 
         .card__picture
             img(src="./img/arrivals/" + imgName + ".webp" alt="headphones")
-            .card__label New
+            if label
+                .card__label #{label}
             .card__fav
                 button.btn-fav
                     svg.svg-heart
