@@ -1,6 +1,8 @@
+@import "./base/_mixins";
 @import "./base/_var";
 @import "./base/_base";
 @import "./base/_icons";
+
 
 //blocks
 
@@ -11,6 +13,7 @@
 @import "./blocks/arrivals-swiper";
 @import "./blocks/timer";
 @import "./blocks/value";
+@import "./blocks/collection-item";
 
 //sections
 

@@ -38,13 +38,6 @@
   font-style: normal;
 }
 
-// @font-face {
-//   font-family: 'Poppins';
-//   src: local('Poppins Medium'), local('Poppins-Medium'),
-//     url('../fonts/Poppins-Medium.woff2') format('woff2');
-//   font-weight: 500;
-//   font-style: normal;
-// }
 
 @font-face {
   font-family: 'Poppins';
@@ -88,6 +81,7 @@ body {
   font-family: var(--font-main);
   padding: 0;
   width: 100%;
+  text-wrap: balance;
 
   -webkit-font-smoothing: antialiased;
 }
@@ -180,8 +174,8 @@ select:-webkit-autofill:focus {
 .container-right {
   /* overflow-x: hidden; */
   padding-left: calc((100% - var(--container-width)) / 2 + var(--container-padding));
-
-  @media (max-width: var(--laptop-size)) {
+   
+  @include tablet {
     padding-left: var(--container-padding);
   }
 }
@@ -190,8 +184,8 @@ select:-webkit-autofill:focus {
   /* overflow-x: hidden; */
   padding-right: calc((100% - var(--container-width)) / 2 + var(--container-padding));
 
-  @media (max-width: var(--laptop-size)) {
-    padding-right: var(--container-padding);
+  @include tablet {
+    padding-left: var(--container-padding);
   }
 }
 

@@ -5,6 +5,10 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    @include tablet {
+        height: 500px;
+    }
 }
 
 .hero-container {
@@ -13,6 +17,10 @@
     height: 100%;
     padding-left: calc((100% - var(--container-width)) / 2 + (var(--container-width) / 2));
     padding-right: calc((100% - var(--container-width)) / 2);
+
+    @include tablet {
+        padding-right: var(--container-padding);
+    }
 }
 
 .hero__title {
@@ -22,9 +30,14 @@
     letter-spacing: -3px;
     font-family: var(--font-accent);
     line-height: 1;
+    text-wrap: balance;
 
     span {
         color: #377DFF;
+    }
+
+    @include tablet {
+        font-size: 60px;
     }
 }
 
