@@ -9,12 +9,22 @@
 	background-position: center center; /* x y */
 	background-size: cover;
 	background-repeat: no-repeat;
+
+	@include tablet {
+		background-image: none;
+	}
+
+	@include mobile {
+		height: auto;
+		padding: 95px 0;
+	}
 }
 
 .newsletter__content {
 	flex-grow: 1;
-	max-width: 488px;
+	max-width: 552px;
 	text-align: center;
+	padding: 0 var(--container-padding);
 }
 
 .newsletter__title {
@@ -23,8 +33,12 @@
 .newsletter__desc {
 	margin-bottom: 32px;
 	font-size: 18px;
-	line-height: 1.666666666666667;
+	line-height: 1.7;
 	color: #121212;
+
+	@include mobile {
+		font-size: 14px;
+	}
 }
 
 .form-newsletter {
