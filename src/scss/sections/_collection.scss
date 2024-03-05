@@ -1,10 +1,19 @@
 .collection__title {
     padding-block: 48px;
+
+    @include mobile {
+        padding: 40px 0 16px;
+        text-align: center;
+    }
 }
 
 .collection__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+
+    @include mobile {
+        grid-template-columns: 1fr;
+    }
 }
 

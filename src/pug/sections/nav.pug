@@ -1,7 +1,11 @@
 nav.nav 
     .container
         .nav__row
-            a.nav__logo.logo(href="#!") 3legant.
+            .nav__logo
+                button.nav__btn-mob-nav
+                    svg.svg-burger
+                        use(href="./img/spriteSvg.svg#svg-burger")
+                a.logo(href="#!") 3legant.
             ul.nav__list
                 li.nav__item 
                     a(href="#!").nav__link Home
@@ -17,10 +21,10 @@ nav.nav
                     a(href="#!").nav__link Contact Us
 
             .nav__btns
-                button.nav__btn
+                button.nav__btn.nav__btn--search
                     svg.svg-search
                         use(href="./img/spriteSvg.svg#svg-search")
-                button.nav__btn
+                button.nav__btn.nav__btn--user
                     svg.svg-user
                         use(href="./img/spriteSvg.svg#svg-user")
                 button.nav__btn

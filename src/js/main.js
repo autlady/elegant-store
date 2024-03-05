@@ -23,11 +23,19 @@ closeTaglineBtn.onclick = function() {
 const arrivalsSwiper = new Swiper('.arrivals-swiper', {
     // Optional parameters
     slidesPerView: 4.5,
-    spaceBetwen: 24,
+    spaceBetwen: 12,
+    
   
       pagination: {
       el: '.swiper-pagination',
       clickable: true,
+    },
+
+    breakpoints: {
+      840: {
+        spaceBetween: 24,
+      }
+
     },
   });
 
