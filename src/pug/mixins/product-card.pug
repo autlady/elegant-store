@@ -23,6 +23,6 @@ mixin product-card(imgName, title, price, label)
                     use(href="./img/spriteSvg.svg#svg-star") 
                 svg.svg-star
                     use(href="./img/spriteSvg.svg#svg-star") 
-            h3.card__title #{title}
+            h3.card__title.card__title--elipsis #{title}
             .card__price #{price}
         a(href="#!").card__link

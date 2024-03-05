@@ -60,6 +60,10 @@
     transition: all 0.2s ease-in;
     transform: translateY(50%);
     pointer-events: none;
+
+    @include mobile {
+        display: none;
+    }
 }
 
 .card__desc {
@@ -90,6 +94,12 @@
     font-size: 16px;
     line-height: 1.6;
     color: var(--black);
+}
+
+.card__title--elipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-wrap: nowrap;
 }
 
 .card__price {
