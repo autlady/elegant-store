@@ -1,0 +1,51 @@
+.mob-nav
+    // ====mob-nav__top====
+    .mob-nav__top
+        .mob-nav__header
+            a.logo.logo--small(href="#!") 3legant#[span .]
+            button#close-mob-nav 
+                svg.svg-close
+                    use(href="./img/spriteSvg.svg#svg-close")
+        form.mob-nav__search
+            .mob-nav__search-label 
+                svg.svg-search
+                    use(href="./img/spriteSvg.svg#svg-search")
+                input.mob-nav__search-input(type="text" placeholder="Search")
+        .mob-nav__nav
+            ul.mob-nav__list 
+                li.mob-nav__item 
+                    a(href="#!").mob-nav__link Home
+                li.mob-nav__item 
+                    button.nav__link Shop
+                        svg.svg-down
+                            use(href="./img/spriteSvg.svg#svg-down")
+                li.mob-nav__item 
+                    button.nav__link Product
+                        svg.svg-down
+                            use(href="./img/spriteSvg.svg#svg-down")
+                li.mob-nav__item 
+                    a(href="#!").mob-nav__link Contact Us 
+
+    // ====mob-nav__bottom====
+    .mob-nav__bottom
+        .mob-nav__links
+            ul.mob-nav__list
+                li.mob-nav__item.mob-nav__item--icon  
+                    a(href="#!").mob-nav__link Cart
+                li.mob-nav__item.mob-nav__item--icon 
+                    a(href="#!").mob-nav__link Wishlist
+        .mob-nav__sign-in
+            a(href="#!").btn.btn--wide Sign In
+        .mob-nav__socials
+            a(href="#!")
+                svg.svg-insta
+                    use(href="./img/spriteSvg.svg#svg-insta")
+            a(href="#!")
+                svg.svg-fb
+                    use(href="./img/spriteSvg.svg#svg-fb")
+            a(href="#!")
+                svg.svg-youtube
+                    use(href="./img/spriteSvg.svg#svg-youtube")
+        
+
+.mob-nav-fade
