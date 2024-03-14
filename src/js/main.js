@@ -1,19 +1,40 @@
-const navBtn = document.querySelector('#mob-nav-btn');
-const nav = document.querySelector('.mobile-nav');
-const menuIcon = document.querySelector('.nav-icon');
+const navBtnOpen = document.querySelector('#mob-nav-btn');
+const navBtnClose = document.querySelector('#close-mob-nav');
+const nav = document.querySelector('.mob-nav');
+const mobileNavFade = document.querySelector('.mob-nav-fade');
+const bodyEl = document.body;
 
+// открытие и закрытие моб навигации
 
+if (navBtnOpen){
+  navBtnOpen.addEventListener('click', function(){
+    console.log('click');
+    nav.classList.add('active');
+    mobileNavFade.classList.add('active');
+    bodyEl.classList.add('noscroll');
 
-if (navBtn){
-      navBtn.addEventListener('click', function(){
-        
-        if(this.classList.contains('active')){
-            this.classList.remove('active');
-        }else{
-            this.classList.add('active');
-        }
     })
 }
+
+if (navBtnClose){
+  navBtnClose.addEventListener('click', function(){
+        nav.classList.remove('active');
+        mobileNavFade.classList.remove('active');
+        bodyEl.classList.remove('noscroll');
+   
+})
+}
+
+if (mobileNavFade){
+  mobileNavFade.addEventListener('click', function(){
+        nav.classList.remove('active');
+        mobileNavFade.classList.remove('active');
+        bodyEl.classList.remove('noscroll');
+   
+})
+}
+
+
 
 // закрытие секции tagline
 const closeTaglineBtn = document.querySelector('.tagline__close');
@@ -47,7 +68,7 @@ const arrivalsSwiper = new Swiper('.arrivals-swiper', {
     // const endDate = new Date();
     // endDate.setDate(endDate.getDate() + 3); // например, 3 дня от текущей даты
   
-    const endDate = new Date('Mar 3, 2024, 23:59:59');
+    const endDate = new Date('May 15, 2024, 23:59:59');
   
     const daysElement = document.querySelector('#days');
     const minutesElement = document.querySelector('#minutes');

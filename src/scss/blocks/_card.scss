@@ -2,7 +2,7 @@
     position: relative;
     display: grid;
     gap: 12px;
-    width: 262px;
+    // width: 262px;
 
     &:hover {
         .card__fav {
@@ -31,6 +31,7 @@
 .card__picture {
     position: relative;
     background-color: #f3f5f7;
+    text-align: center;
 }
 
 .card__label {

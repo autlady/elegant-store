@@ -31,19 +31,27 @@
         .mob-nav__links
             ul.mob-nav__list
                 li.mob-nav__item.mob-nav__item--icon  
-                    a(href="#!").mob-nav__link Cart
+                    a(href="#!").mob-nav__link.mob-nav__link--icon Cart
+                        span.nav__btn
+                            svg.svg-cart
+                                use(href="./img/spriteSvg.svg#svg-cart")
+                            span.nav__btn-count.nav__btn-count--white 2
                 li.mob-nav__item.mob-nav__item--icon 
-                    a(href="#!").mob-nav__link Wishlist
+                    a(href="#!").mob-nav__link.mob-nav__link--icon Wishlist
+                        span.nav__btn
+                            svg.svg-heart
+                                use(href="./img/spriteSvg.svg#svg-heart")
+                            span.nav__btn-count.nav__btn-count--white 2
         .mob-nav__sign-in
             a(href="#!").btn.btn--wide Sign In
         .mob-nav__socials
-            a(href="#!")
+            a(href="#!").mob-nav__socials-item
                 svg.svg-insta
                     use(href="./img/spriteSvg.svg#svg-insta")
-            a(href="#!")
+            a(href="#!").mob-nav__socials-item
                 svg.svg-fb
                     use(href="./img/spriteSvg.svg#svg-fb")
-            a(href="#!")
+            a(href="#!").mob-nav__socials-item
                 svg.svg-youtube
                     use(href="./img/spriteSvg.svg#svg-youtube")
         

@@ -45,11 +45,10 @@
 	</symbol>
 
 	<!-- cart -->
-	<symbol id="svg-cart" viewBox="0 0 48 48">
+	<symbol id="svg-cart" viewBox="0 0 24 24">
 		<g>
-            <path d="M28 38V14M28 38H32M28 38H18M28 14C28 9.58172 24.4183 6 20 6H12C7.58172 6 4 9.58172 4 14V30C4 33.7304 6.55333 36.8645 10.0077 37.7499M28 14H34.4182C35.4344 14 36.4126 14.3868 37.154 15.0819L42.7358 20.3148C43.5424 21.071 44 22.1273 44 23.2329V34C44 36.2091 42.2091 38 40 38M40 38C40 40.2091 38.2091 42 36 42C33.7909 42 32 40.2091 32 38M40 38C40 35.7909 38.2091 34 36 34C33.7909 34 32 35.7909 32 38M18 38C18 40.2091 16.2091 42 14 42C11.7909 42 10 40.2091 10 38C10 37.916 10.0026 37.8326 10.0077 37.7499M18 38C18 35.7909 16.2091 34 14 34C11.8748 34 10.1368 35.6573 10.0077 37.7499" fill="transparent" stroke="currentColor" stroke-width="2.5"/>
-            <path d="M20 16H16" fill="transparent" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M20 24H12" fill="transparent" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M9 6L9 7C9 8.65685 10.3431 10 12 10C13.6569 10 15 8.65685 15 7V6" fill="transparent" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15.6116 3H8.3886C6.43325 3 4.76449 4.41365 4.44303 6.3424L2.77636 16.3424C2.37001 18.7805 4.25018 21 6.72194 21H17.2783C19.75 21 21.6302 18.7805 21.2238 16.3424L19.5572 6.3424C19.2357 4.41365 17.5669 3 15.6116 3Z" fill="transparent" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 		</g>
 	</symbol>
 
@@ -110,24 +109,24 @@
 	<!-- instagram -->
 	<symbol id="svg-insta" viewBox="0 0 24 24">
 		<g>
-           <rect x="2" y="2" width="20" height="20" rx="4" stroke="currentColor" stroke-width="1.5"/>
+           <rect x="2" y="2" width="20" height="20" rx="4" fill="transparent" stroke="currentColor" stroke-width="1.5"/>
            <circle cx="18" cy="6" r="1" fill="currentColor"/>
-           <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.5"/>
+           <circle cx="12" cy="12" r="5" stroke="currentColor" fill="transparent" stroke-width="1.5"/>
 		</g>
 	</symbol>
 
 	<!-- facebook -->
 	<symbol id="svg-fb" viewBox="0 0 24 24">
 		<g>
-           <path d="M18 3H15C12.2386 3 10 5.23858 10 8V10H6V14H10V21H14V14H18V10H14V8C14 7.44772 14.4477 7 15 7H18V3Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+           <path d="M18 3H15C12.2386 3 10 5.23858 10 8V10H6V14H10V21H14V14H18V10H14V8C14 7.44772 14.4477 7 15 7H18V3Z" stroke="currentColor" fill="transparent" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 		</g>
 	</symbol>
 
 	<!-- youtube -->
 	<symbol id="svg-youtube" viewBox="0 0 24 24">
 		<g>
-           <rect x="2" y="3" width="20" height="18" rx="4" stroke="currentColor" stroke-width="1.5"/>
-           <path d="M10.4472 8.72361L15.2111 11.1056C15.9482 11.4741 15.9482 12.5259 15.2111 12.8944L10.4472 15.2764C9.78231 15.6088 9 15.1253 9 14.382V9.61803C9 8.87465 9.78231 8.39116 10.4472 8.72361Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+           <rect x="2" y="3" width="20" height="18" rx="4" fill="transparent" stroke="currentColor" stroke-width="1.5"/>
+           <path d="M10.4472 8.72361L15.2111 11.1056C15.9482 11.4741 15.9482 12.5259 15.2111 12.8944L10.4472 15.2764C9.78231 15.6088 9 15.1253 9 14.382V9.61803C9 8.87465 9.78231 8.39116 10.4472 8.72361Z" stroke="currentColor" fill="transparent" stroke-width="1.5" stroke-linecap="round"/>
 		</g>
 	</symbol>
 
