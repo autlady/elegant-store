@@ -12,7 +12,7 @@
         min-width: 262px;
 	}
 
-	@include mobile {
+	@media (max-width: 1149px) {
 		display: grid;
 		grid-template-columns: repeat(2, minmax(150px, 1fr));
 		gap: 24px 8px;

@@ -100,11 +100,11 @@
 
 .card__title--elipsis {
     display: -webkit-box;  
-  -webkit-line-clamp: 2;  
-  -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;  
+    -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     overflow: hidden;
-    text-wrap: nowrap;
+    // text-wrap: nowrap;
 }
 
 .card__price {
