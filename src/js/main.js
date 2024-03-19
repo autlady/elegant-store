@@ -54,6 +54,7 @@ const arrivalsSwiper = new Swiper('.arrivals-swiper', {
       pagination: {
       el: '.swiper-pagination',
       clickable: true,
+
     },
 
     breakpoints: {

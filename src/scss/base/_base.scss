@@ -173,18 +173,8 @@ select:-webkit-autofill:focus {
 }
 
 .container-right {
-  /* overflow-x: hidden; */
-  padding-left: calc((100% - var(--container-width)) / 2 + var(--container-padding));
+  width: calc(50% + 50vw);
    
-  @include tablet {
-    padding-left: var(--container-padding);
-  }
-}
-
-.container-left {
-  /* overflow-x: hidden; */
-  padding-right: calc((100% - var(--container-width)) / 2 + var(--container-padding));
-
   @include tablet {
     padding-left: var(--container-padding);
   }
