@@ -48,7 +48,7 @@ closeTaglineBtn.onclick = function() {
 const arrivalsSwiper = new Swiper('.arrivals-swiper', {
     // Optional parameters
     slidesPerView: 4.5,
-    spaceBetween: 12,
+    spaceBetween: 24,
     
   
       pagination: {
@@ -59,6 +59,7 @@ const arrivalsSwiper = new Swiper('.arrivals-swiper', {
 
     breakpoints: {
       320: {
+        spaceBetween: 12,
         slidesPerView: 1.5,
       },
       510: {
